@@ -32,3 +32,8 @@ If you use Cloudera Desktop Manager (CDM), here is your script
 ```
 hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar -mapper ./mapper.py -file ./mapper.py -reducer ./reducer.py -file ./reducer.py -input input -output /output
 ```
+
+If you prefer to run the jar file
+```
+hadoop jar wordcount.jar WordCount /input /output
+```
