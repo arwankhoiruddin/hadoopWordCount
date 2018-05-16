@@ -37,3 +37,20 @@ If you prefer to run the jar file
 ```
 hadoop jar wordcount.jar WordCount /input /output
 ```
+
+## Data
+
+For the small data, you can just use the README.md file. For bigger data, one of the example is to use data from saleforce. You can download using the following command
+
+```
+curl -O https://s3.amazonaws.com/research.metamind.io/wikitext/wikitext-103-v1.zip
+```
+To unzip, you will need to have `unzip`. So, you may need to install it using the following command
+
+```
+sudo apt-get install unzip
+```
+Extract the content using the following command
+```
+unzip wikitext-103-v1.zip
+```
